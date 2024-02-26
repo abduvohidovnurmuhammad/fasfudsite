@@ -1,0 +1,29 @@
+.burger__goodfud{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+.burger__title{
+  color: #150c01;
+font-size: 48.83px;
+font-weight: 700;
+line-height: 57.6px;
+margin-bottom: 10px;
+}
+.burger__text{
+  color: #150c01;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+margin-bottom: 20px;
+}
+.burger__btn{
+  color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+padding: 14px 30px;
+border-radius: 5px;
+background: #dc780b;
+border: none;
+}

@@ -1,0 +1,272 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* philosopher-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/philosopher-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* philosopher-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Philosopher";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/philosopher-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 1140px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+.siteheader__food {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteheader__img {
+  width: 44px;
+  height: 44px;
+}
+
+.siteheader__list {
+  display: flex;
+  width: 448px;
+  justify-content: space-between;
+}
+
+.siteheader__item {
+  color: #150c01;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.siteheader__btn {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  background: #dc780b;
+  border: 1px solid #dc780b;
+  margin: 14px 30px;
+}
+
+.burger__goodfud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.burger__title {
+  color: #150c01;
+  font-size: 48.83px;
+  font-weight: 700;
+  line-height: 57.6px;
+  margin-bottom: 10px;
+}
+
+.burger__text {
+  color: #150c01;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.burger__btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  padding: 14px 30px;
+  border-radius: 5px;
+  background: #dc780b;
+  border: none;
+}
+
+.foodstall__box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.foodstall__foto {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.foodstall__text1 {
+  color: #dc780b;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.foodstall__title {
+  color: #150c01;
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 40.63px;
+  margin-bottom: 30px;
+}
+
+.foodstall__text2 {
+  color: #150c01;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.foodstall__btn {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  border-radius: 5px;
+  background-color: #dc780b;
+  border: none;
+  padding: 15px 30px;
+}
+
+.Menufood {
+  text-align: center;
+}
+
+.Menufood__text1 {
+  color: rgb(220, 120, 11);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 20%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.Menufood__title {
+  color: rgb(21, 12, 1);
+  font-size: 31.25px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.Menufood__text2 {
+  color: rgb(21, 12, 1);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.Menufood__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Menufood__item {
+  width: 360px;
+  height: 446px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 75px 10px 10px 10px;
+  background: rgb(255, 255, 255);
+}
+
+.menyufoodimg__img {
+  margin-bottom: 10px;
+}
+
+.item__title {
+  margin-bottom: 20px;
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.item__price {
+  color: rgb(21, 12, 1);
+  font-family: Philosopher;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.item__text {
+  margin-bottom: 20px;
+}
+
+.strong_blok {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */
